@@ -1,6 +1,6 @@
 # Web Development Fundamentals
 
-This repository marks the successful completion of my learning journey through **HTML**, **CSS**, and **Bootstrap**. It includes practice projects, code snippets, and notes that reflect the skills I've gained while building responsive and structured web pages.
+This repository marks the successful completion of my learning journey through **HTML**, **CSS**, and **Bootstrap**. It includes practice projects and notes that reflect the skills I've gained while building responsive and structured web pages.
 
 ---
 
