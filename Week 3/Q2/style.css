@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+:root{
+    --font:70px;
+}
+.background{
+    box-sizing: border-box;
+    padding: 50px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/WhatsApp\ Image\ 2025-06-09\ at\ 11.30.52\ AM.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gap{
+    color: white;
+    margin: 15px;
+}
+p{
+    color: white;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+.color{
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    color: white;
+}
+.parent{
+    height: 360px;
+    width: 360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+}
+.slide{
+    font-size: var(--font);
+    position: relative;
+    left: 10px;
+    animation: slideX 0.5s ease-out 0s infinite;
+}
+@keyframes slideX {
+    0%{
+        left: 10px;
+        opacity: 50%;
+    }
+    20%{
+        left: 50px;
+        opacity: 100%;
+    }
+    100%{
+        left: 90px;
+        opacity: 50%;
+    }
+}
+.five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-left: 8px solid white;
+    border-bottom: 8px solid white;
+    border-right: 8px solid white;
+    position: relative;
+    border-top: none;
+    animation: rotate 1s ease 0s infinite;
+ }
+ @keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+ }
+ .square{
+    height: 22px;
+    width: 22px;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    animation: Srotate 2s ease-in-out 0s infinite;
+
+ }
+ .Nsquare{
+    height: 22px;
+    width: 22px;
+    background-color: white;
+    position: relative;
+    left: 52px;
+    top: 52px;
+    animation: SOrotate 2s ease-in-out 0s infinite;
+
+ }
+ @keyframes Srotate {
+    0%{
+        left: 30px;
+        top: 30px;
+    }
+    25%{
+        left: 52px;
+        top: 30px;
+    }
+    50%{
+        left: 52px;
+        top: 52px;
+    }
+    75%{
+        left: 30px;
+        top: 52px;
+    }
+    100%{
+        left: 30px;
+        top: 30px;
+    }
+ }
+ @keyframes SOrotate {
+    0%{
+        left: 52px;
+        top: 30px;
+    }
+    25%{
+        left: 30px;
+        top: 30px;
+    }
+    50%{
+        left: 30px;
+        top: 8px;
+    }
+    75%{
+        left: 52px;
+        top: 8px;
+    }
+    100%{
+        left: 52px;
+        top: 30px;
+    }
+ }
+.Uslide{
+    font-size: var(--font);
+}
+.U1slide{
+    position: relative;
+    left: 30px;
+    top: 25px;
+    animation: up 0.8s ease-in-out 0s infinite alternate;
+}
+.U2slide{
+    position: relative;
+    left: 40px;
+    top: -25px;
+    animation: up 0.8s ease-in-out 0s infinite alternate-reverse;
+}
+.three{
+    display: flex;
+}
+@keyframes up {
+    0%{
+        top: 25px;
+    }
+    100%{
+        top: -25px;
+    }
+}
+.pop{
+    font-size: var(--font);
+    position: relative;
+    display: inline-block;
+    left: 35px;
+    top: 25px;
+    animation: pops 0.8s ease-out 0s infinite;
+}
+@keyframes pops {
+    0%{
+        top: 25px;
+    }
+    100%{
+        top: -25px;
+    }
+}
+.two{
+    display: flex;
+}
+.dot{
+    font-size: var(--font);
+    position: relative;
+    left: 35px;
+    width: 25px;
+}
+.f{
+    animation: XY 0.4s ease-out 0s infinite;
+}
+.s{
+    animation: XY 0.4s ease-out 0.15s infinite;
+}
+@keyframes XY {
+    0%{
+        left: 20px;
+        top: -20px;
+    }
+    80%{
+        opacity: 100%;
+    }
+    100%{
+        left: 40px;
+        top: 0px;
+        opacity: 50%;
+    }
+}
+.four{
+    display: flex;
+    align-items: center;
+}
+.line{
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    animation: stretched 0.8s ease-in-out 0s infinite forwards;
+}
+@keyframes stretched {
+    0%{
+        left: 20px;
+        transform: scaleX(1);
+    }
+    50%{
+        left: 50px;
+        transform: scaleX(5);
+    }
+    100%{
+        left: 80px;
+        transform: scaleX(0.5);
+    }
+}
+.six{
+    display: flex;
+    align-items: center;
+}
+.line1{
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+    rotate: 90deg;
+    animation: slideY 0.4s ease-out 0.2s infinite forwards;
+}
+.line2{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    rotate: 90deg;
+    animation: slideY 0.4s ease-out 0s infinite forwards;
+}
+@keyframes slideY {
+    0%{
+        top: -40px;
+        opacity: 100%;
+    }
+    20%{
+        top: -20px;
+        opacity: 100%;
+    }
+    100%{
+        top: 30px;
+        opacity: 50%;
+    }
+}
+

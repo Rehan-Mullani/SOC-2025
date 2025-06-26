@@ -1,0 +1,48 @@
+hr{
+    border: none; 
+    height: 2px; 
+    background-color: red;
+}
+#intro{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 20px;
+}
+#first{
+    border: 1px solid black;
+    height: 60px;
+    width: 290px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#parent{
+    margin-top: 25px;
+    display: flex;
+}
+#child1{
+    border: 2px solid blue;
+    height: 70px;
+    width: 240px;
+    padding: 5px;
+    margin: 10px;
+    margin-right: 45px;
+}
+.profile{
+    border: 1px solid green;
+}
+.margin{
+    margin: 5px;
+}
+#child2{
+    border: 2px solid blue;
+    height: 90px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    bottom: 15px;
+}
+.grandchild{
+    margin: 10px;
+}

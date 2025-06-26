@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Admission Form</title>
+</head>
+<body>
+    <form action="/backend.php">
+        <h2>School Admission Form</h2>
+        <u><h3>Student Details</h3></u>
+        <label for="Name">
+            Full Name: <input type="text" name="Name" placeholder="Name" id="Name">
+        </label>
+        <br><br>
+        <label for="DOB">
+            Date of Birth: <input type="date" name="DOB" id="DOB">
+        </label>
+        <br><br>
+        <label for="POB">
+            Place of Birth: <input type="text" name="POB" id="POB" placeholder="mumbai">
+        </label>
+        <br><br>
+        <label for="Gender">
+            Gender: Male <input type="radio" name="Gender" id="Gender">
+            </label>
+            <label for="Gender.">
+                Female <input type="radio" name="Gender" id="Gender.">
+            </label>
+            <label for="Gender..">
+                Other: <input type="radio" name="Gender" id="Gender..">
+            </label>
+            <br><br>
+        <label for="bloodGrp">
+            Blood Group: <select name="bloodGrp" id="bloodGrp">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+        </label>
+        <br><br>
+        <label for="Caste">
+            Caste: <input type="text" name="caste" id="Caste" placeholder="Open">
+        </label>
+        <br><br>
+        <label for="lang">
+            Mother Tongue: <input type="text" name="lang" id="lang" placeholder="Marathi">
+        </label>
+        <br><br>
+        <label for="Income">
+            Father's Annual Income: <input type="number" name="Income" id="Income" placeholder="100000">
+        </label>
+        <br><hr>
+        <u><h3>Educational Details</h3></u>
+        <label for="lastSchool">
+            lastSchool: <input type="text" name="lastSchool" id="lastSchool">
+        </label>
+        <br><br>
+        <label for="lastClass">
+            lastClass: <input type="number" name="lastClass" id="lastClass">
+        </label>
+        <br><br>
+        <label for="grade">
+            grade(%): <input type="number" name="grade" id="grade">
+        </label>
+        <br><hr>
+        <u><h3>Current Residence Details</h3></u>
+        <label for="address">
+            Address: <textarea name="address" id="address" placeholder="Address" rows="3"></textarea>
+        </label>
+        <br><br>
+        <label for="city">
+            City: <input type="text" name="city" id="city" placeholder="Kolhapur">
+        </label>
+        <br><br>
+        <label for="State">
+            State: <input type="text" name="State" id="State" placeholder="Maharashtra">
+        </label>
+        <br><br>
+        <label for="PIN">
+            PIN: <input type="number" name="PIN" id="PIN" placeholder="123456">
+        </label>
+        <br><br>
+        <label for="PhoneNo">
+            Phone number: <input type="number" name="number" placeholder="Number" id="PhoneNo">
+        </label>
+        <br><br>
+        <label for="EMAIL">
+            EMAIL: <input type="email" name="EMAIL" id="EMAIL" placeholder="abc@gmail.com">
+        </label>
+        <br><br>
+        <input type="submit" name="submit" id="submit">
+        <input type="reset" name="reset" id="reset">
+    </form>
+</body>
+</html>

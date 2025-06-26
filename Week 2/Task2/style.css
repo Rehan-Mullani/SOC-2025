@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 10px solid white;
+}
+.red{
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding: 10px;
+}
+.blue{
+    height: 200px;
+    width: 1000px;
+    background-color: rgb(5, 5, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.text{
+    padding: 20px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
