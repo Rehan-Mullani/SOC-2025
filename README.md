@@ -41,8 +41,17 @@ I’m Rehan Mullani, and this repository showcases my learning journey in **Fron
 
 ---
 
-## 📁 Projects (Coming Soon)
-This repository will soon contain mini projects and demos based on these technologies to demonstrate what I’ve learned.
+## 📁 Projects 
+## 🧩 Mini Project: 15 Puzzle Game
+
+As a part of this learning path, I have built a **15 Puzzle Game** using HTML, CSS, and JavaScript.  
+The game is a sliding puzzle that consists of a 4x4 grid with 15 numbered tiles and one empty space.
+
+### 🎯 Features:
+- Shuffle the puzzle randomly.
+- Move tiles by clicking (only adjacent ones).
+- Check for winning state.
+- Clean UI and responsive layout.
 
 ---
 
