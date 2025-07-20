@@ -42,7 +42,7 @@ I’m Rehan Mullani, and this repository showcases my learning journey in **Fron
 ---
 
 ## 📁 Projects 
-## 🧩 Mini Project: 15 Puzzle Game
+## 🧩 Project: 15 Puzzle Game
 
 As a part of this learning path, I have built a **15 Puzzle Game** using HTML, CSS, and JavaScript.  
 The game is a sliding puzzle that consists of a 4x4 grid with 15 numbered tiles and one empty space.
