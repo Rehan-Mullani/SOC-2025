@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>15 Puzzle Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>15 Puzzle Game</h1>
+    <div class="grid" id="grid"></div>
+    <button id="shuffleBtn">New Game</button>
+  </div>
+
+  <script src="node.js"></script>
+</body>
+</html>
