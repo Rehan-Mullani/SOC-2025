@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    background-color: grey;
+}
+h1{
+    color: rgb(112, 201, 24);
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 3rem;
+}
+.box{
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin: 0.8em auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.container{
+    height: 80vh;
+    width: 70%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+}
+.input{
+    font-size: 1.3rem;
+}
+.submit-box{
+    background-color: rgb(112, 201, 24);
+    font-size: 1.2rem;
+}
+.submit-box:active{
+    opacity: 50%;
+}
+.input-box{
+    padding-left: 1em;
+}
+.result{
+    font-size: 1rem;
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: grey;
+}
